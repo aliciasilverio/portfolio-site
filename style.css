@@ -1,0 +1,59 @@
+/* Add styling to my name on Home Page */
+.my-name {
+    display: flex;   
+}
+
+.background {
+  background-color: #7bb274;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+}
+
+
+
+.my-header {
+    display: flex;
+    flex-direction: column;
+}
+/* Add a black background color to the top navigation */
+.top-navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .top-navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .top-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .top-navbar a.active {
+    background-color: #7bb274;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");    color: white;
+  }
+
+.name-and-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7bb274;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");    padding: 20%;
+}
+
+  .Alicia-Image {
+    display: flex;
+  }
+
+  .icons-for-contact {
+    display: flex;
+  }
