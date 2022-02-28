@@ -2,6 +2,7 @@
 body{
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 .my-name {
@@ -56,7 +57,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 15%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
     width: 100%;
     height: 100%;
     background: linear-gradient(-45deg, #FEC8A7, #FCECA5, #B5EECB, #CBC7FC);
@@ -84,6 +85,15 @@ body{
 
   .icons-for-contact {
     display: flex;
+  }
+
+  .below-main {
+    text-align: center;
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    padding: 20px 16px;
   }
 
   .footer {
