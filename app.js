@@ -1,4 +1,4 @@
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+/* 1. When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -10,7 +10,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-// SLIDESHOW GALLERY CODE
+// 2. SLIDESHOW GALLERY CODE
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -42,3 +42,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+// 3. When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
+
+
+
