@@ -133,8 +133,7 @@ body{
  /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  padding: 10%;
 }
 
 /* Hide the images by default */
@@ -145,11 +144,12 @@ body{
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
+
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+
+.next, .prev{
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -159,7 +159,7 @@ body{
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 3em 3em 0;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -227,7 +227,6 @@ body{
   }
 
 
-  /* Style the navigation bar */
   .footer a {
     color: #f2f2f2;
     text-align: center;
@@ -236,7 +235,6 @@ body{
     font-size: 17px;
   }
   
-  /* Change color when hover */
   .footer a:hover {
     background-color: #ddd;
     color: black;
@@ -248,5 +246,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* resume.html section */
+  .resume-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
