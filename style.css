@@ -174,12 +174,12 @@ body{
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: beige;
   padding: 2px 16px;
-  color: white;
+  color: #98BF64;
 
 }
-
+ 
 .row:after {
   content: "";
   display: table;
