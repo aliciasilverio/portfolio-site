@@ -1,4 +1,4 @@
-/* 1. When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// 1. When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -9,8 +9,8 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-// 2. SLIDESHOW GALLERY CODE
+ 
+// 2. SLIDESHOW GALLERY CODE https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -43,7 +43,8 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-// 3. When the user clicks on <div>, open the popup
+// 3. When the user clicks on <div>, open the popup https://www.w3schools.com/howto/howto_js_popup.asp
+
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
