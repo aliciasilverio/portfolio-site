@@ -107,12 +107,12 @@ body{
     color: white;
     justify-content: center;
     padding: 45px;
+    flex-direction: column;
   }
 
   .some-of-my-skills {
     display: flex;
     justify-content: center;
-
   }
 
   /* BEGINNING OF SLIDESHOW GALLERY */
@@ -120,6 +120,10 @@ body{
  /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 /* Hide the images by default */
@@ -169,7 +173,7 @@ body{
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
+} 
 
 /* Container for image text */
 .caption-container {
