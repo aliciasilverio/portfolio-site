@@ -95,9 +95,14 @@ body{
   .Alicia-Image {
     display: flex;
     border-radius: 50%;
-    width: 20%;
-    height: 20%;
+    width: 50%;
+
   }
+
+.center {
+  margin: auto;
+  width: 50%;
+}
 
 .skills{
   background-color: white;
