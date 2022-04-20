@@ -11,13 +11,6 @@ window.onscroll = function() {
 }
 
 
-// 3. When the user clicks on <div>, open the popup https://www.w3schools.com/howto/howto_js_popup.asp
-
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-  }
-
 
 
 
