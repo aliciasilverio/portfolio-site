@@ -43,20 +43,8 @@ var modalInfo = {
     info: "....",
     link: "#",
     github: "#"
-  },
-  5: {
-    title: "Project 5",
-    info: "...",
-    link: "#",
-    github: "#"
-  },
-  6: {
-    title: "Project 6",
-    info: "...",
-    link: "#",
-    github: "#"
   }
-};
+}
 
 // Get the modal
 var modal = document.getElementById('preview');
@@ -105,7 +93,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+// close the modal end
 
 
-
-
+// Loader 
+$(window).on("load", function(){
+  $(".p").fadeOut("slow")
+});
+// Loader End
