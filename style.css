@@ -161,9 +161,9 @@ h4{
   width: 50%;
 }
 
-.skills{
-  background-color: white;
-}
+/* .skills{
+  background-color: #A6E3E9;
+} */
 
 .some-of-my-skills {
     display: flex;
@@ -179,7 +179,7 @@ h4{
 .MultiCarousel {
 	/* float: left; */
 	overflow: hidden;
-	padding: 15px;
+  padding-left: 17%;
 	width: 100%;
 	position: relative;
 }
@@ -197,19 +197,13 @@ h4{
 	background: #f1f1f1;
 	color: #666;
 }
-/* .MultiCarousel .leftLst,
-.MultiCarousel .rightLst {
-	position: absolute;
-	border-radius: 50%;
-	top: calc(50% - 20px);
-} */
-/******* Bnt Full********
-.MultiCarousel .leftLst, .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 50%; 
-    height: 80%;
-    top: 24px;
-}**/
+
+/* relevant styles */
+.img__wrap {
+  position: fixed;
+  height: 200px;
+  width: 257px;
+}
 
 /* End of Image Slider */
 
@@ -526,7 +520,7 @@ h4{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    background-color: #A6E3E9;
+    background-color: #f1f1f1;
   }
 
   #col {
