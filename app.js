@@ -94,10 +94,3 @@ window.onclick = function(event) {
     }
 }
 // close the modal end
-
-
-// Loader 
-$(window).on("load", function(){
-  $(".p").fadeOut("slow")
-});
-// Loader End
