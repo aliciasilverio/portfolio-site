@@ -94,3 +94,6 @@ window.onclick = function(event) {
     }
 }
 // close the modal end
+
+// Multiple Image Slider
+

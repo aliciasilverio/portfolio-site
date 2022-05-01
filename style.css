@@ -19,11 +19,16 @@ h1 {
   justify-content: center;
   padding-bottom: 65px;
 }
+
 h2 {
   display: flex;
   text-align: center;
   justify-content: center;
   padding-bottom: 65px;
+}
+
+h4{
+  font-family: Lucida, monospace;
 }
 
 .myname {
@@ -147,6 +152,10 @@ h2 {
 
   }
 
+  .fancy-title {
+    font-family: 'Alfa Slab One', cursive;
+  }
+
 .center {
   margin: auto;
   width: 50%;
@@ -156,10 +165,53 @@ h2 {
   background-color: white;
 }
 
-  .some-of-my-skills {
+.some-of-my-skills {
     display: flex;
     justify-content: center;
-  }
+}
+
+
+.fancy-title{
+  font-family: Lucida, monospace;
+}
+
+/* Image Slider */
+.MultiCarousel {
+	/* float: left; */
+	overflow: hidden;
+	padding: 15px;
+	width: 100%;
+	position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+	transition: 1s ease all;
+	/* float: left; */
+}
+/* .MultiCarousel .MultiCarousel-inner .item {
+	float: left;
+} */
+.MultiCarousel .MultiCarousel-inner .item > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background: #f1f1f1;
+	color: #666;
+}
+/* .MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+	position: absolute;
+	border-radius: 50%;
+	top: calc(50% - 20px);
+} */
+/******* Bnt Full********
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%; 
+    height: 80%;
+    top: 24px;
+}**/
+
+/* End of Image Slider */
 
 /* Project Section START */
 
@@ -171,18 +223,16 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vH;
+    /* height: 100vH; */
     background-color: #F5F5F5;
     font-family: Roboto;
   }
   
   
-  .container {
-    margin-top: 50px;
+  .container {   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
   }
   
   .item {
