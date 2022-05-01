@@ -8,6 +8,7 @@ html, body{
   font-family: Lucida, monospace;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
 
@@ -25,6 +26,8 @@ h2 {
   text-align: center;
   justify-content: center;
   padding-bottom: 65px;
+  padding-top: 65px;
+
 }
 
 h4{
@@ -194,7 +197,7 @@ h4{
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
-	background: #f1f1f1;
+	background: white;
 	color: #666;
 }
 
@@ -218,7 +221,7 @@ h4{
     flex-direction: column;
     align-items: center;
     /* height: 100vH; */
-    background-color: #F5F5F5;
+    background-color: #f6ffff;
     font-family: Roboto;
   }
   
@@ -247,7 +250,7 @@ h4{
   }
   
   .item *{
-    transition: all 0.35s ease-in-out;
+    transition: all 0.70s ease-in-out;
   }
   
   .img-project {
@@ -485,9 +488,10 @@ h4{
   .footer {
     display: flex;
     text-align: center;
-    background-color: #98BF64;
     color: white;
     justify-content: center;
+    background-color: #E3FDFD;;
+
   }
 
 
@@ -500,7 +504,7 @@ h4{
 
 
   .footer a {
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -508,8 +512,7 @@ h4{
   }
   
   .footer a:hover {
-    background-color: #ddd;
-    color: black;
+    color: #01A2AC;    ;
   }
   /* Footer END */
 
@@ -520,7 +523,7 @@ h4{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    background-color: #f1f1f1;
+    background-color: #b6f4f7;
   }
 
   #col {
